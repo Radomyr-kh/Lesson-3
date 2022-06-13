@@ -23,9 +23,5 @@ router.put("/api/users/:id", function (req, res) {
   console.log(req.params);
   res.send("PUT /api/users/:id");
 });
-router.delete("/api/users/:id", function (req, res) {
-  console.log(req.params);
-  res.send("DELETE /api/users/:id");
-});
 
 module.exports = router;
